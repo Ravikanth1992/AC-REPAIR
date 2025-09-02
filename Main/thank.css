@@ -1,0 +1,308 @@
+.navbar{
+    background-color: white;
+    color: black;
+    padding: 10px;
+}
+
+.navbar img{
+    width: 25%;
+    border: 1px solid black;
+    padding: 10px;
+    background-color: rgb(78, 78, 211);
+    border-radius: 5px;
+}
+
+.navbar ul li{
+    margin: 10px;
+}
+
+.navbar ul li a{
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px;
+    color: black;
+}
+
+.navbar .eci div button{
+    border-radius: 100%;
+    background-color: white;
+}
+
+.navbar .eci div button img[type="bg"]{
+    width: 45px;
+    height: 45px;
+    padding: 10px;
+    border: none;
+    background-color: white;
+    border-radius: 100%;
+}
+
+.thank{
+    width: 100%;
+    height: 455px;
+    background-image: url("Assets/Thankyou\ AC\ Repair-1.jpg");
+    color: white;
+    padding: 45px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.thank div h2{
+    font-size: 36px;
+    font-weight: 500;
+    padding: 10px;
+    font-family: special;
+}
+
+@font-face {
+    font-family: special;
+    src: url("Assets/kenyan\ coffee\ rg");
+}
+
+.thank div p{
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.thank1{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    color: black;
+    padding: 45px;
+}
+
+.thank1 div h2{
+    font-size: 36px;
+    font-weight: 500;
+    padding: 10px;
+    font-family: special;
+    text-align: center;
+}
+
+.thank1 div p{
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px;
+    text-align: center;
+}
+
+.thank1 .card{
+    width: 100%;
+    height: 200px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.thank1 .card img[type="time"]{
+    width: 25%;
+    padding: 10px;
+    border-radius: 100%;
+    border: 1px solid blue;
+}
+
+.thank1 .card img[type="star"]{
+    width: 25%;
+    height: 55px;
+    padding: 10px;
+    border-radius: 100%;
+    border: 1px solid blue;
+}
+
+.thank1 .card .card-body{
+    padding: 10px;
+    text-align: center;
+}
+
+.thank1 .card .card-body div h3{
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.thank2{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    color: black;
+    padding: 45px;
+}
+
+.thank2 div h2{
+    font-size: 32px;
+    font-weight: 500;
+    padding: 10px;
+    text-align: center;
+    font-family: special;
+}
+
+.thank2 div p{
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px;
+    text-align: center;
+}
+
+.thank2 .card{
+    width: 100%;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.thank2 .card img{
+    width: 100%;
+    background-color: black;
+    border: 1px solid blue;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.thank2 .card .card-body{
+    padding: 10px;
+}
+
+.thank2 .card .card-body div h4{
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px;
+    text-align: center;
+}
+
+.thank2 .card .card-body div h3{
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px;
+    font-family: special;
+}
+
+.thank2 .card .card-body div h3 span img[type="star"]{
+    width: 105px;
+    height: 45px;
+    padding: 10px;
+    border: 0.5px solid blueviolet;
+    background-color: transparent;
+    border-radius: none;
+}
+
+.thank2 .card .card-body div h3 span img[type="star"]:hover{
+    background-color: rgb(105, 64, 143);
+}
+
+.thank2 .card .card-body div h5{
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10px;
+}
+
+.thank2 .card .card-body div a{
+    font-size: 14px;
+    font-weight: 500;
+    padding: 10px;
+    color: blue;
+}
+
+.thank3{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    color: black;
+    padding: 45px;
+}
+
+.thank3 div h3{
+    font-size: 36px;
+    font-weight: 500;
+    padding: 10px;
+    font-family: special;
+}
+
+.thank3 div p{
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.thank3 div img{
+    width: 75%;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.ftr{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(103, 86, 186);
+    color: white;
+    padding: 45px;
+    border: 2px solid black;
+}
+
+.ftr div a img{
+    width: 50%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid black;
+}
+
+.ftr div h2{
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.ftr div ul li a h4{
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px;
+    color: black;
+}
+
+.ftr div ul li a h4 span img{
+    width: 40px;
+    height: 40px;
+}
+
+.ftr div h3{
+    font-size: 26px;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.ftr div p span img[type="span"]{
+    background-color: transparent;
+    border: none;
+}
+
+.ftr div ul p{
+    font-size: 14px;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.ftr div p span img{
+    width: 45px;
+    height: 45px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 100%;
+}
+
+.ftr div p span img[type="twitter"]{
+    width: 45px;
+    height: 45px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 100%;    
+}

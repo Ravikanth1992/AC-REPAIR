@@ -1,0 +1,381 @@
+.navbar{
+    background-color: white;
+    color: black;
+    padding: 10px;
+}
+
+.navbar img{
+    width: 50%;
+    border: 1px solid black;
+    padding: 10px;
+    background-color: rgb(78, 78, 211);
+    border-radius: 5px;
+}
+
+.navbar ul li{
+    margin: 10px;
+}
+
+.navbar ul li a{
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px;
+    color: black;
+}
+
+.navbar .eci div button{
+    border-radius: 100%;
+    background-color: white;
+}
+
+.navbar .eci div button img[type="bg"]{
+    width: 45px;
+    height: 45px;
+    padding: 10px;
+    border: none;
+    background-color: white;
+    border-radius: 100%;
+}
+
+.mady{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    color: black;
+    padding: 45px;
+}
+
+.mady div img{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid blueviolet;
+    border-radius: 5px;
+    box-shadow: 1px 2px 3px 2px blue;
+}
+
+.mady div a[type="star"] span img{
+    width: 45px;
+    height: 45px;
+    padding: 10px;
+    border: none;
+    background-color: black;
+}
+
+.mady div h2{
+    font-size: 42px;
+    font-weight: 500;
+    padding: 10px;
+    font-family: special;
+}
+
+@font-face {
+    font-family: special;
+    src: url("Assets/kenyan\ coffee\ rg");
+}
+
+.mady div h3{
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.mady div p{
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10px;
+}
+
+.mady1{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    color: black;
+    padding: 45px;
+}
+
+.mady1 div h2{
+    font-size: 36px;
+    font-weight: 500;
+    padding: 10px;
+    font-family: bg;
+}
+
+.mady1 div p{
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.mady1 div ul li{
+    padding: 10px;
+}
+
+.mady1 div ul li p{
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.mady1 div img{
+    width: 75%;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 2px 3px 2px blueviolet;
+}
+
+.mady1 div img:hover{
+    background-color: rgb(69, 69, 128);
+}
+
+.mady1 div h3{
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.mady2{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    color: black;
+    padding: 45px;
+}
+
+.mady2 div h2{
+    font-size: 36px;
+    font-weight: 500;
+    padding: 10px;
+    font-family: special;
+    text-align: center;
+}
+
+.mady2 div p{
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px;
+    text-align: center;
+}
+
+.mady2 .card{
+    width: 100%;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.mady2 .card img{
+    width: 100%;
+    background-color: black;
+    border: 1px solid blue;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.mady2 .card .card-body{
+    padding: 10px;
+}
+
+.mady2 .card .card-body div h4{
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px;
+    text-align: center;
+}
+
+.mady2 .card .card-body div h3{
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px;
+    font-family: special;
+}
+
+.mady2 .card .card-body div h3 span img[type="star"]{
+    width: 105px;
+    height: 45px;
+    padding: 10px;
+    border: 0.5px solid blueviolet;
+    background-color: transparent;
+    border-radius: none;
+}
+
+.mady2 .card .card-body div h3 span img[type="star"]:hover{
+    background-color: rgb(105, 64, 143);
+}
+
+.mady2 .card .card-body div h5{
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10px;
+}
+
+.mady2 .card .card-body div a{
+    font-size: 14px;
+    font-weight: 500;
+    padding: 10px;
+    color: blue;
+}
+
+.mady3{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    color: black;
+    padding: 45px;
+}
+
+.mady3 div h2{
+    font-size: 36px;
+    font-weight: 500;
+    padding: 10px;
+    font-family: special;
+    text-align: center;
+}
+
+.mady3 .person{
+    width: 100%;
+    height: 355px;
+    background-image: url("Assets/Blue\ Tech\ Banner.jpg");
+    color: white;
+    padding: 35px;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.mady3 .person div img{
+    width: 50%;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 100%;
+}
+
+.mady3 .person div img[type="scent"]{
+    width: 50%;
+    height: 155px;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 100%;    
+}
+
+.mady3 .person div h4{
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px;
+    font-family: prf;
+}
+
+@font-face {
+    font-family: prf;
+    src: url("Assets/Oswald-Medium.ttf");
+}
+
+.mady3 .person div p{
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10px;
+}
+
+.bg6{
+    width: 100%;
+    height: 100%;
+    background-image: url("Assets/Expert\ Coworker\ Servicing-1.jpg");
+    color: white;
+    padding: 45px;
+    background-position: center;
+    background-size: cover;
+}
+
+.bg6 .rex{
+    width: 75%;
+    background-color: white;
+    border: 1px solid blueviolet;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px 2px blueviolet;
+    text-align: center;
+}
+
+.bg6 .rex div h3{
+    font-size: 32px;
+    font-weight: 500;
+    padding: 10px;
+    color: blue;
+}
+
+.bg6 .rex div p{
+    font-size: 22px;
+    font-weight: 800;
+    padding: 10px;
+    color: black;
+    font-family: special;
+}
+
+.ftr{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(103, 86, 186);
+    color: white;
+    padding: 45px;
+    border: 2px solid black;
+}
+
+.ftr div a img{
+    width: 50%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid black;
+}
+
+.ftr div h2{
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.ftr div ul li a h4{
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px;
+    color: black;
+}
+
+.ftr div ul li a h4 span img{
+    width: 40px;
+    height: 40px;
+}
+
+.ftr div h3{
+    font-size: 26px;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.ftr div p span img[type="span"]{
+    background-color: transparent;
+    border: none;
+}
+
+.ftr div ul p{
+    font-size: 14px;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.ftr div p span img{
+    width: 45px;
+    height: 45px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 100%;
+}
+
+.ftr div p span img[type="twitter"]{
+    width: 45px;
+    height: 45px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 100%;    
+}

@@ -1,0 +1,471 @@
+.navbar{
+    background-color: white;
+    color: black;
+    padding: 10px;
+}
+
+.navbar img{
+    width: 50%;
+    border: 1px solid black;
+    padding: 10px;
+    background-color: rgb(78, 78, 211);
+    border-radius: 5px;
+}
+
+.navbar ul li{
+    margin: 10px;
+}
+
+.navbar ul li a{
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px;
+    color: black;
+}
+
+.navbar .eci div button{
+    border-radius: 100%;
+    background-color: white;
+}
+
+.navbar .eci div button img[type="bg"]{
+    width: 45px;
+    height: 45px;
+    padding: 10px;
+    border: none;
+    background-color: white;
+    border-radius: 100%;
+}
+
+.contact{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    color: black;
+    padding: 45px;
+}
+
+.contact div img{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid blue;
+    border-radius: 5px;
+}
+
+.contact div h2{
+    font-size: 42px;
+    font-weight: 500;
+    padding: 10px;
+    font-family: special;
+}
+
+@font-face {
+    font-family: special;
+    src: url("Assets/kenyan\ coffee\ rg");
+}
+
+.contact div a span img{
+    width: 45px;
+    height: 45px;
+    padding: 10px;
+    background-color: black;
+    border-radius: 5px;
+}
+
+.contact div a{
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.contact div p{
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.contact div a{
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.contact div img[type="whatsapp"]{
+    width: 50%;
+    border: 1px solid blueviolet;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.contact1{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    color: black;
+    padding: 45px;
+}
+
+.contact1 div h3{
+    font-size: 36px;
+    font-weight: 500;
+    padding: 10px;
+    font-family: special;
+}
+
+.contact1 div p{
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10px;
+}
+
+.contact1 .card{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid blueviolet;
+    border-radius: 5px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact1 .card:hover{
+    box-shadow: 1px 2px 4px blue;
+}
+
+.contact1 .card img{
+    width: 100%;
+    padding: 10px;
+    background-color: black;
+    border: 1px solid blue;
+    border-radius: 5px;
+}
+
+.contact1 .card .card-body{
+    padding: 10px;
+    text-align: center;
+}
+
+.contact1 .card .card-body div h4{
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.contact2{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    color: black;
+    padding: 45px;
+}
+
+.contact2 div h2{
+    font-size: 42px;
+    font-weight: 500;
+    padding: 10px;
+    font-family: special;
+    text-align: center;
+}
+
+.contact2 div p{
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px;
+    text-align: center;
+}
+
+.contact2 .card{
+    width: 100%;
+    height: 200px;
+    padding: 10px;
+    border: 1px solid blue;
+    border-radius: 5px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact2 .card img{
+    width: 55px;
+    height: 55px;
+    padding: 10px;
+    border: 1.5px solid black;
+    background-color: white;
+    border-radius: 100%;
+}
+
+.contact2 .card .card-body{
+    padding: 10px;
+}
+
+.contact2 .card .card-body div h3{
+    font-size: 18px;
+    font-weight: 800;
+    padding: 10px;
+    font-family: special;    
+}
+
+.contact3{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    color: black;
+    padding: 45px;
+}
+
+.contact3 div h2{
+    font-size: 28px;
+    font-weight: 500;
+    padding: 10px;
+    color: black;
+    position: relative;
+    text-align: center;
+    animation: zoom 8s;
+    animation-timing-function: linear;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    font-family: special;    
+}
+
+@keyframes zoom{
+    from{
+        font-size: 28px;
+        font-weight: 500;
+        color: black;
+    }
+    to{
+        font-size: 36px;
+        font-weight: 800;
+        color: blue;
+    }
+}
+
+.contact3 div p{
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px;
+    text-align: center;
+}
+
+.contact3 .card{
+    width: 100%;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.contact3 .card:hover{
+    box-shadow: 1px 2px 4px 4px blue;
+}
+
+.contact3 .card img{
+    width: 100%;
+    background-color: black;
+    border: 1px solid blue;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.contact3 .card .card-body{
+    padding: 10px;
+}
+
+.contact3 .card .card-body div h4{
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px;
+    text-align: center;
+}
+
+.contact3 .card .card-body div h3{
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px;
+    font-family: special;
+}
+
+.contact3 .card .card-body div h3 span img[type="star"]{
+    width: 105px;
+    height: 45px;
+    padding: 10px;
+    border: 0.5px solid blueviolet;
+    background-color: transparent;
+    border-radius: none;
+}
+
+.contact3 .card .card-body div h3 span img[type="star"]:hover{
+    background-color: rgb(105, 64, 143);
+}
+
+.contact3 .card .card-body div h5{
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10px;
+}
+
+.contact3 .card .card-body div a{
+    font-size: 14px;
+    font-weight: 500;
+    padding: 10px;
+    color: blue;
+}
+
+.contact4{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    color: black;
+    padding: 45px;
+}
+
+.contact4 div h2{
+    font-size: 36px;
+    font-weight: 500;
+    padding: 10px;
+    font-family: special;
+}
+
+.contact4 div form{
+    width: 100%;
+    height: 100%;
+    border: 1px solid blue;
+    border-radius: 5px;
+    padding: 45px;
+}
+
+.contact4 div form label{
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.contact4 div form input{
+    width: 100%;
+    height: 45px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+.contact4 div form p{
+    color: red;
+}
+
+.contact4 div form textarea{
+    width: 75%;
+    height: 85px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 3px;
+    box-shadow: 1px 3px 4px blueviolet;
+}
+
+.contact4 div form textarea[type="problem"]{
+    width: 75%;
+    height: 70px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 3px;
+    box-shadow: 1px 3px 4px blueviolet;
+}
+
+.contact4 div form input[type="submit"]{
+  width: 115px;
+  height: 45px;
+  padding: 10px;
+  border: 1px solid blueviolet;
+  border-radius: 5px;
+  background-color: rgb(31, 31, 154);
+  color: white;
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.contact4 div form button[type="submit"]:hover{
+    background-color: white;
+    color: rgb(31, 31, 154);
+}
+
+.contact4 div iframe{
+    width: 100%;
+    height: 575px;
+    border: 1px solid blue;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: black;
+}
+
+.contact4 div iframe:hover{
+    box-shadow: 1px 2px 4px 3px rgb(31, 31, 154);
+}
+
+.ftr{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(103, 86, 186);
+    color: white;
+    padding: 45px;
+    border: 2px solid black;
+}
+
+.ftr div a img{
+    width: 50%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid black;
+}
+
+.ftr div h2{
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.ftr div ul li a h4{
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px;
+    color: black;
+}
+
+.ftr div ul li a h4 span img{
+    width: 40px;
+    height: 40px;
+}
+
+.ftr div h3{
+    font-size: 26px;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.ftr div p span img[type="span"]{
+    background-color: transparent;
+    border: none;
+}
+
+.ftr div ul p{
+    font-size: 14px;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.ftr div p span img{
+    width: 45px;
+    height: 45px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 100%;
+}
+
+.ftr div p span img[type="twitter"]{
+    width: 45px;
+    height: 45px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 100%;    
+}

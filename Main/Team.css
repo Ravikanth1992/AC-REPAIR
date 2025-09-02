@@ -1,0 +1,521 @@
+.navbar{
+    background-color: white;
+    color: black;
+    padding: 10px;
+}
+
+.navbar img{
+    width: 50%;
+    border: 1px solid black;
+    padding: 10px;
+    background-color: rgb(78, 78, 211);
+    border-radius: 5px;
+}
+
+.navbar ul li{
+    margin: 10px;
+}
+
+.navbar ul li a{
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px;
+    color: black;
+}
+
+.navbar .eci div button{
+    border-radius: 100%;
+    background-color: white;
+}
+
+.navbar .eci div button img[type="bg"]{
+    width: 45px;
+    height: 45px;
+    padding: 10px;
+    border: none;
+    background-color: white;
+    border-radius: 100%;
+}
+
+.team{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    color: black;
+    padding: 45px;
+}
+
+.team div img{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid blue;
+    border-radius: 5px;
+}
+
+.team div h2{
+    font-size: 42px;
+    font-weight: 500;
+    padding: 10px;
+    font-family: special;
+}
+
+@font-face {
+    font-family: special;
+    src: url("Assets/kenyan\ coffee\ rg");
+}
+
+.team div h4{
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.team div a span img{
+    width: 45px;
+    height: 45px;
+    padding: 10px;
+    background-color: black;
+    border-radius: 5px;
+}
+
+.team div a{
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.team div p{
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.team div a{
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.team1{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    color: black;
+    padding: 45px;
+}
+
+.team1 div h2{
+    font-size: 36px;
+    font-weight: 500;
+    padding: 10px;
+    font-family: special;
+    text-align: center;
+    animation: bounce 2s infinite;    
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+
+  40% {
+    transform: translateY(30px);
+  }
+
+  60% {
+    transform: translateY(15px);
+  }
+}
+
+.team1 .card{
+    width: 100%;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.team1 .card img{
+    width: 100%;
+    background-color: black;
+    border: 1px solid blue;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.team1 .card .card-body{
+    padding: 10px;
+}
+
+.team1 .card .card-body div h4{
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px;
+    text-align: center;
+}
+
+.team1 .card .card-body div h3{
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px;
+    font-family: special;
+}
+
+.team1 .card .card-body div h3 span img[type="star"]{
+    width: 105px;
+    height: 45px;
+    padding: 10px;
+    border: 0.5px solid blueviolet;
+    background-color: transparent;
+    border-radius: none;
+}
+
+.team1 .card .card-body div h3 span img[type="star"]:hover{
+    background-color: rgb(105, 64, 143);
+}
+
+.team1 .card .card-body div h5{
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10px;
+}
+
+.team1 .card .card-body div p{
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.team1 .card .card-body div p span{
+    color: blue;    
+}
+
+.team2{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    color: black;
+    padding: 45px;
+}
+
+.team2 div h3{
+    font-size: 32px;
+    font-weight: 500;
+    padding: 10px;
+    font-family: zm;
+    text-align: center;
+    position: relative;
+    animation: zoom 5s;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+}
+
+@keyframes zoom {
+    from {
+        right: 400px;
+    }
+    to {
+        right: 0px;
+        font-weight: 800;
+        color: blue;
+    }
+}
+
+@font-face {
+    font-family: zm;
+    src: url("Assets/kenyan\ coffee\ rg");
+}
+
+.team2 div p{
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px;
+    text-align: center;
+}
+
+.team2 .card{
+    width: 100%;
+    margin: 15px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid gray;
+}
+
+.team2 .card .card-body{
+    padding: 10px;
+}
+
+.team2 .card img{
+    width: 100%;
+    height: 255px;
+    padding: 10px;
+    border: 1px solid blue;
+    background-color: black;
+    border-radius: 5px;
+}
+
+.team2 .card img[type="img"]{
+    border: 1px solid blue;
+    border-radius: 5px;
+}
+
+.team2 .card:hover{
+    box-shadow: 1px 1px 4px 5px rgb(105, 104, 211);
+}
+
+.team2 .card .card-body div h4{
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px;
+    font-family: zm;
+}
+
+.team2 .card .card-body div h5{
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.team2 .card .card-body div a{
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px;
+    color: blue;
+}
+
+.team3{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    color: black;
+    padding: 45px;
+}
+
+.team3 div h3{
+    font-size: 36px;
+    font-weight: 500;
+    padding: 10px;
+    font-family: special;
+    text-align: left;
+}
+
+.team3 div p{
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.team3 div h2{
+    font-size: 26px;
+    font-weight: 500;
+    padding: 10px;
+    font-family: special;
+    text-align: center;
+}
+
+.team3 div img{
+    width: 100%;
+    border: 1px solid blueviolet;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.team3 div img:hover{
+    box-shadow: 1px 2px 3px 2px blueviolet;
+}
+
+.team3 div h4{
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px;
+    text-align: center;
+}
+
+.team4{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    color: black;
+    padding: 45px;
+}
+
+.team4 div h2{
+    font-size: 36px;
+    font-weight: 500;
+    padding: 10px;
+    font-family: special;
+    text-align: center;
+}
+
+.team4 div p{
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px;
+    text-align: center;
+}
+
+.team4 .card{
+    width: 100%;
+    height: 175px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.team4 .card img{
+    width: 25%;
+    padding: 10px;
+    border-radius: 100%;
+    border: 1px solid blue;
+}
+
+.team4 .card .card-body{
+    padding: 10px;
+}
+
+.team4 .card .card-body div h5{
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.team5{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    color: black;
+    padding: 45px;
+}
+
+.team5 div img{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid blue;
+    border-radius: 5px;
+}
+
+.team5 div h3{
+    font-size: 36px;
+    font-weight: 500;
+    padding: 10px;
+    font-family: special;
+}
+
+.team5 div p{
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.team5 div ul li{
+    color: black;
+}
+
+.team5 div ul li p{
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.team6{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    color: black;
+    padding: 45px;
+    background-position: center;
+    background-size: cover;    
+}
+
+.team6 div h2{
+    font-size: 36px;
+    font-weight: 500;
+    padding: 10px;
+    font-family: special;
+    text-align: center;
+}
+
+.team6 div h2 span{
+    font-size: 42px;
+    font-weight: 800;
+    color: blue;
+}
+
+.team6 div ol li details summary{
+    width: 100%;
+    height: 70px;
+    background-image: url("Assets/Blue\ Tech\ Banner.jpg");
+    color: white;
+    padding: 10px;
+    border: 1px solid white;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: start;
+}
+
+.team6 div ol li details p{
+    font-size: 16px;
+    font-weight: 800;
+    padding: 10px;
+    text-align: start;
+    font-family: special;
+}
+
+.ftr{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(103, 86, 186);
+    color: white;
+    padding: 45px;
+    border: 2px solid black;
+}
+
+.ftr div a img{
+    width: 50%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid black;
+}
+
+.ftr div h2{
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.ftr div ul li a h4{
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px;
+    color: black;
+}
+
+.ftr div ul li a h4 span img{
+    width: 40px;
+    height: 40px;
+}
+
+.ftr div h3{
+    font-size: 26px;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.ftr div ul p{
+    font-size: 14px;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.ftr div p span img{
+    width: 45px;
+    height: 45px;
+    padding: 10px;
+}

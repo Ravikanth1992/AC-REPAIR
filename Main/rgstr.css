@@ -1,0 +1,31 @@
+.navbar{
+    background-color: #C9C7EB;
+    color: black;
+}
+
+.navbar img{
+    width: 75%;
+}
+
+.navbar ul li{
+    margin: 10px;
+}
+
+.navbar ul li a{
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px;
+    color: black;
+    text-align: center;
+}
+
+.navbar .eci div button{
+    border-radius: 100%;
+}
+
+.navbar .eci div button img{
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    border: none;
+}
